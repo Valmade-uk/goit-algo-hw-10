@@ -40,7 +40,10 @@ python coin_change.py
 
 ## Завдання 2 — Інтеграл методом Монте-Карло
 Файл `monte_carlo_integral.py` реалізує оцінку визначеного інтеграла методом Монте‑Карло (схема усереднення значень):
-[\int_a^b f(x)\,dx \approx (b-a)\cdot \frac{1}{n}\sum_{i=1}^n f(x_i),\quad x_i\sim U(a,b)\]
+$[\int_a^b f(x)\,dx \approx (b-a)\cdot \frac{1}{n}\sum_{i=1}^n f(x_i),\quad x_i\sim U(a,b)\]$
+
+\int_a^b f(x)\, dx \approx (b-a)\cdot \frac{1}{n}\sum_{i=1}^n f(x_i), \quad x_i\sim U(a,b)$
+
 
 У прикладі використано \( f(x) = x^2 \) на відрізку \([0, 2]\). Аналітичне значення:
 \[\int_0^2 x^2 dx = \frac{2^3 - 0^3}{3} = \frac{8}{3} \approx 2.6666666667.\]
